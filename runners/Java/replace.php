@@ -21,6 +21,6 @@
         $corpus_text = $_POST["corpus_text"];
         $replace_text = $_POST["replace_text"];
         
-        $output = shell_exec('/replace.class "replace" ' . escapeshellarg($pattern) . ' ' . escapeshellarg($corpus_text) . ' ' . escapeshellarg($replace_text));
+        $output = shell_exec('/Runner.class "replace" ' . escapeshellarg($pattern) . ' ' . escapeshellarg($corpus_text) . ' ' . escapeshellarg($replace_text));
         echo $output;
     }

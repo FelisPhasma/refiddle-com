@@ -22,6 +22,6 @@
         $pattern = $_POST["pattern"];
         $corpus_text = $_POST["corpus_text"];
         
-        $output = shell_exec('/evaluate.class "evaluate" ' . escapeshellarg($pattern) . ' ' . escapeshellarg($corpus_text));
+        $output = shell_exec('/Runner.class "evaluate" ' . escapeshellarg($pattern) . ' ' . escapeshellarg($corpus_text));
         echo $output;
     }

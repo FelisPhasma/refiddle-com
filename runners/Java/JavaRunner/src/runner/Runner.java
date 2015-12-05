@@ -7,7 +7,9 @@ package runner;
  */
 
 public class Runner {
-	public static void Main(String args[]){
+	public static void main(String args[]){
+		if(args.length == 0)
+			return;
 		String action = args[0];
 		String pattern = args[1];
 		String corpus_text = args[2];

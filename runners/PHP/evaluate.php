@@ -2,7 +2,7 @@
     /**
      * PHP regex runner for Refiddle 
      * Written by FelisPhasma
-     * Copyright (c) FelisPhasma 2015 Under the MIT Licence
+     * Copyright (c) FelisPhasma 2015 Under the MIT License
      * 
      */
     

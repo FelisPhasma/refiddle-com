@@ -1,0 +1,15 @@
++-------------------------+------------------------------------------------------------------------------------------+
+| Flag                    | Modification                                                                             |
++=========================+==========================================================================================+
+| CASE_INSENSITIVE        | Enables case-insensitive matching.                                                       |
+| MULTILINE               | Enables multiline mode.                                                                  |
+| DOTALL                  | Enables dotall mode.                                                                     |
+| UNICODE_CASE            | Enables Unicode-aware case folding.                                                      |
+| CANON_EQ                | Enables canonical equivalence.                                                           |
+| UNIX_LINES              | Enables Unix lines mode.                                                                 |
+| LITERAL                 | Enables literal parsing of the pattern.                                                  |
+| UNICODE_CHARACTER_CLASS | Enables the Unicode version of Predefined character classes and POSIX character classes. |
+| COMMENTS                | Permits whitespace and comments in pattern.                                              |
++-------------------------+------------------------------------------------------------------------------------------+
+| Source: https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html                                     |
++--------------------------------------------------------------------------------------------------------------------+

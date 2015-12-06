@@ -3,7 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.4'
 
 # gem 'rapped', path: "~/workspace/phallguy/rapped"
-gem 'rapped', git: "git@github.com:phallguy/rapped.git"
+gem 'rapped', git: "https://github.com/phallguy/rapped.git"
 
 gem 'jquery-rails'
 gem 'less-rails'
@@ -41,7 +41,7 @@ end
 group :development do
   gem 'foreman'
   # gem 'capi-sous', path: "~/Projects/phallguy/capi-sous"
-  gem 'capi-sous', git: "git@github.com:phallguy/capi-sous.git"
+  gem 'capi-sous', git: "https://github.com/phallguy/capi-sous.git"
   gem 'yard'
 end
 
